@@ -1,0 +1,33 @@
+.resource-tree {
+  padding: 0;
+  list-style: none;
+}
+
+.resource-tree .collapse-icon {
+  position: absolute;
+  left: 0;
+}
+
+.resource-tree .collapse-icon svg {
+  width: 1rem;
+}
+
+.resource-tree .node-type svg {
+  width: 1.25rem;
+  vertical-align: bottom;
+}
+
+.resource-tree .active {
+  font-weight: bold;
+}
+
+.resource-tree li {
+  position: relative;
+  padding-left: 1.3rem;
+  cursor: pointer;
+}
+
+.resource-tree li .label:hover {
+  background: #f6fbff;
+}
+

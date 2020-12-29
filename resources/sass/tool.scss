@@ -1,0 +1,37 @@
+// Nova Tool CSS
+.resource-tree {
+    padding: 0;
+    list-style: none;
+
+    .collapse-icon {
+        position: absolute;
+        left: 0;
+
+        svg {
+            width: 1rem;
+        }
+    }
+
+    .node-type {
+        svg {
+            width: 1.25rem;
+            vertical-align: bottom;
+        }
+    }
+
+    .active {
+        font-weight: bold;
+    }
+
+    li {
+        position: relative;
+        padding-left: 1.3rem;
+        cursor: pointer;
+
+        .label {
+            &:hover {
+                background: #f6fbff;
+            }
+        }
+    }
+}
